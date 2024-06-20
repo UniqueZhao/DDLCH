@@ -51,8 +51,10 @@ we implement our method on dataset ODIR-5K, Colorectal and IU X-Ray:
 
 ### How to run
 
- Step1: Run make_or5k.py
+Step1: Run make_or5k.py
 
-Step2:  Run main.py --is-train
+Step2: download pre-trained model ViT-b-32.pt from [https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt] and put it under the folder /DDLCH
+
+Step3:  Run main.py --is-train
 
 >>>>>>> 551f8a6 (first commit)

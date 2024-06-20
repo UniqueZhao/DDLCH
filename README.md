@@ -43,12 +43,13 @@ you need to install these package to run
 
 we implement our method on dataset ODIR-5K, Colorectal and IU X-Ray:
 
-(1) please download the ODIR-5K dataset from (https://odir2019.grand-challenge.org/dataset/)  and put it under the folder /dataset/data/.
+(1) please download the ODIR-5K dataset from (https://odir2019.grand-challenge.org/dataset/)  and put it under the folder /DDLCH/dataset/or5k/ork.
 
-(2) please download the Colorectal dataset from https://cdas.cancer.gov/datasets/plco/22/ and put them under the folder /dataset/data/.
+(2) please download the Colorectal dataset from https://cdas.cancer.gov/datasets/plco/22/ and put them under the folder /DDLCH/dataset/or5k/ork.
 
-(3) please download the IU X-Ray dataset from [https://openi.nlm.nih.gov/gridquery.php?q=Indiana%20chest%20X-ray%20collection&it=xg] and put them under the folder /dataset/data/.
+(3) please download the IU X-Ray dataset from [https://openi.nlm.nih.gov/gridquery.php?q=Indiana%20chest%20X-ray%20collection&it=xg] and put them under the folder /DDLCH/dataset/or5k/ork.
 
+On the above datasets, images put under the folder /DDLCH/dataset/or5k/ork, texts put under the folder /DDLCH/dataset/or5k/ork/mir5k/tags and labels put under the folder /DDLCH/dataset/or5k/ork_annotations
 ### How to run
 
 Step1: Run make_or5k.py
